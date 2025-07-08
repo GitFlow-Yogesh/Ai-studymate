@@ -1,0 +1,110 @@
+/* About.css — Cleaned for AI StudyMate */
+
+.aboutus-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 2rem;
+  background-color: #f0f4ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  color: #1e1e1e;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.aboutus-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2F80ED;
+}
+
+.aboutus-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.aboutus-connect {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.aboutus-connect h3 {
+  color: #2F80ED;
+  margin-bottom: 0.8rem;
+}
+
+.aboutus-connect p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.aboutus-connect a {
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.aboutus-connect a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Mobile (≤600px) */
+@media (max-width: 600px) {
+  .aboutus-container {
+    padding: 1.2rem;
+    margin: 40px 1rem;
+  }
+
+  .aboutus-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .aboutus-list {
+    font-size: 1rem;
+    max-width: 100%;
+    line-height: 1.5;
+  }
+
+  .aboutus-connect p {
+    font-size: 0.9rem;
+  }
+}
+
+/* ✅ Tablet (601px–1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .aboutus-container {
+    padding: 1.8rem;
+    margin: 50px 2rem;
+  }
+
+  .aboutus-container h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* ✅ Desktop (≥1025px) */
+@media (min-width: 1025px) {
+  .aboutus-container {
+    padding: 2.5rem;
+  }
+
+  .aboutus-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .aboutus-list {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .aboutus-connect p {
+    font-size: 1rem;
+  }
+}

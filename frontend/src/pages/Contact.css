@@ -1,0 +1,98 @@
+/* contact.css — Cleaned for AI StudyMate */
+
+.contact-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 5vh auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-sizing: border-box;
+  max-height: calc(100vh - 10vh);
+  overflow-y: auto;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Tablet & below */
+@media (max-width: 768px) {
+  .contact-container {
+    margin: 40px auto;
+    padding: 16px;
+  }
+
+  .contact-title {
+    font-size: 22px;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 15px;
+  }
+}
+
+/* ✅ Mobile */
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 14px;
+    margin: 30px auto;
+  }
+
+  .contact-title {
+    font-size: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
