@@ -37,7 +37,7 @@ const Navbar = ({ user, setUser }) => {
 
         {user ? (
           <>
-            <span style={{ marginRight: '10px' }}>👋 {user.name}</span>
+            <span >{user.name}</span>
             <button onClick={handleLogout} className="logout-btn">Logout</button>
           </>
         ) : (
