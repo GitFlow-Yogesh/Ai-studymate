@@ -16,9 +16,9 @@ const About = () => {
 
       <div className="aboutus-connect">
         <h3>Connect with Me</h3>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">github.com/yourusername</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">linkedin.com/in/yourprofile</a></p>
+        <p>Email: <a href="yogeshrao5024@gmail.com">yogeshsrao5024@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/GitFlow-Yogesh" target="_blank" rel="noreferrer">https://github.com/GitFlow-Yogesh</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yogesh-yadav24" target="_blank" rel="noreferrer">linkedin.com/in/yogesh-yadav24</a></p>
       </div>
     </div>
   );
